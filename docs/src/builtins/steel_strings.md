@@ -129,7 +129,7 @@ Creates a new lowercased version of the input string
 ```
 ### **string->number**
 Converts the given string to a number, with an optional radix.
-On failure, it returns `f`
+On failure, it returns `#f`
 
 (string->number digits [radix]) -> (or/c number? boolean?)
 
