@@ -52,6 +52,19 @@ Divides the given numbers.
 > (/ 1 3.0) ;; => 0.3333333333333333
 > (/ 1 3) ;; => 1/3
 ```
+### **=**
+Compares two numbers for equality.
+
+(= left right) -> bool?
+
+* left : number? - The first number to compare.
+* right : number? - The second number to compare.
+
+#### Examples
+```scheme
+> (= 1 1) ;; => #t
+> (= 1 1.0) ;; => #t
+> (= 2 3) ;; => #f
 ### **abs**
 Computes the absolute value of the given number.
 
@@ -1727,7 +1740,6 @@ Checks if the given real number is zero.
 ### **%keyword-hash**
 ### **<**
 ### **<=**
-### **=**
 ### **>**
 ### **>=**
 ### **Engine::add-module**
@@ -1881,6 +1893,7 @@ Checks if the given real number is zero.
 ### **spawn-thread!**
 ### **stdout**
 ### **stdout-simple-displayln**
+### **steel-home-location**
 ### **stream-car**
 ### **stream-cons**
 ### **stream-empty?**
